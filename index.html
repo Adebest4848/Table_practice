@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+         table{
+            width: 600px;
+            border-collapse: collapse;
+         }
+         td{
+            padding: 25px
+         }
+    </style>
+</head>
+<body>
+  <h2>HTML TABLE</h2>  
+  <table>
+  <tbody>
+    <tr>
+        <td colspan="2" style="padding-left: 150px;">cell 1</td>
+        <td>cell 2</td>
+        <td>cell 3</td>
+    </tr>
+    <tr>
+        <td rowspan="3">cell 4</td>
+        <td>cell 5</td>
+        <td>cell 6</td>
+        <td>cell 7</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="padding-left: 200px;">cell 8</td>
+    </tr>
+    <tr>
+        <td pa>cell 9</td>
+        <td colspan="2" style="padding-left: 100px;">cell 10</td>
+    </tr>
+   </tbody>
+  </table>
+</body> <br><br><br><br>
+
+<h2>HTML TABLE 2</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="5">span rows</td>
+            <td colspan="3" style="padding-left: 170px;">span columns</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding-left: 100px;">span columns</td>
+            <td rowspan="4">span both</td>
+        </tr>
+        <tr>
+            <td rowspan="3">span rows</td>
+            <td>span columns</td>
+        </tr>
+        <tr>
+    
+        </tr>
+        <tr>
+            <td rowspan="2">span both</td>
+        </tr>
+    </tbody>
+</table>
